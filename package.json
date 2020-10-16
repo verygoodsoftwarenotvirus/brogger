@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/verygoodsoftwarenotvirus/brogger/issues"
   },
-  "homepage": "https://github.com/verygoodsoftwarenotvirus/brogger#readme"
+  "homepage": "https://github.com/verygoodsoftwarenotvirus/brogger#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
