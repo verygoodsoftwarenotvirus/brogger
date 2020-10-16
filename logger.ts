@@ -12,10 +12,10 @@ const warningBackgroundColor = "orange";
 const errorBackgroundColor = "red";
 const wtfBackgroundColor = "magenta";
 
-const infoTextColor = "white";
-const debugTextColor = "white";
-const warningTextColor = "white";
-const errorTextColor = "white";
+const infoTextColor = "ghostwhite";
+const debugTextColor = "ghostwhite";
+const warningTextColor = "ghostwhite";
+const errorTextColor = "ghostwhite";
 const wtfTextColor = "tomato";
 
 const infoPrefix = "%c  INFO   ";
@@ -35,7 +35,7 @@ export class Logger {
         this.context = context ? new Map(context) : new Map();
     }
 
-    private static buildStyle(bgColor: string = 'black', textColor: string = 'white'): string {
+    private static buildStyle(bgColor: string = 'black', textColor: string = 'ghostwhite'): string {
         return `background: ${bgColor}; color: ${textColor};`
     }
 
